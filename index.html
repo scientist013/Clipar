@@ -36,7 +36,7 @@
     }
 
     .hero img {
-      width: 180px;
+      width: 120px;
       border-radius: 16px;
       margin-bottom: 20px;
     }
@@ -131,13 +131,38 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
+    
+    .social-icons {
+      text-align: center;
+      margin: 40px 0 10px;
+    }
 
+    .social-icons .line {
+      height: 40px;
+      width: 2px;
+      background-color: #444;
+      margin: 0 auto 10px;
+    }
+
+    .social-icons a {
+      color: #aaa;
+      margin: 0 15px;
+      font-size: 1.8rem;
+      text-decoration: none;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #00bfff;
+      transform: scale(1.2);
+    }
+    
     .about {
       padding: 40px 20px;
       text-align: center;
       background-color: #13131f;
     }
-
+  
     .about h2 {
       font-size: 1.5rem;
       margin-bottom: 10px;
@@ -169,7 +194,7 @@
       }
     }
   </style>
-</head>
+</head> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 <body>
   <header>
     <div class="logo">Clipar</div>
@@ -211,6 +236,15 @@
     <img src="img2.png" alt="Screenshot 2" />
     <img src="img3.png" alt="Screenshot 3" />
   </section>
+
+  <div class="social-icons">
+     <div class="line"></div>
+     <a href="https://x.com/CliparSolution" target="_blank"><i class="fab fa-twitter"></i></a>
+     <a href="https://discord.com/invite/XqvNd7ufZ8" target="_blank"><i class="fab fa-discord"></i></a>
+     <a href="https://t.me/cliparsolution" target="_blank"><i class="fab fa-telegram"></i></a>
+     <a href="https://www.facebook.com/profile.php?id=61575099312510" target="_blank"><i class="fab fa-facebook"></i></a>
+     <a href="https://www.instagram.com/cliparsolution?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
 
   <section class="about">
     <h2>About Clipar</h2>
